@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+.box{
+    background-color: white;
+    width: 600px;
+    min-height: 500px;
+    border: 1px solid #6c757d;
+    box-shadow: 5px 10px #38d4f383;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.h1{
+    margin-top: 10px;
+}
+.input{
+    box-shadow: 5px 6px #38d4f383;
+}
+.btn{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    color: #6c757d ;
+    background-color: #38d4f3c2;
+    border-color:#38d4f3c2;
+    margin-top: 15px;
+    align-self: flex-end;
+}
+.card{
+    margin-top: 11px;
+}
+.card-body{
+    color: #6c757d;
+}
+.to_do{
+    margin-left: 13px;
+    color: #38d4f3c2;
+}
+.want{
+    color: #6c757d;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+.btn__delete{
+    background-color:#6c757d;
+    color: #38d4f3c2;
+    border: none;
+    border-radius: 0%;
+    align-self: flex-end;
+}
